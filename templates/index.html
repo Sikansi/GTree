@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Parentes</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Gerenciamento de Parentes</h1>
+    <form id="parenteForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="pais">Pais (separados por vírgula):</label>
+        <input type="text" id="pais" name="pais">
+        <label for="filhos">Filhos (separados por vírgula):</label>
+        <input type="text" id="filhos" name="filhos">
+        <label for="irmaos">Irmãos (separados por vírgula):</label>
+        <input type="text" id="irmaos" name="irmaos">
+        <label for="conjuge">Cônjuge:</label>
+        <input type="text" id="conjuge" name="conjuge">
+        <button type="submit">Adicionar Parente</button>
+    </form>
+    <h2>Lista de Parentes</h2>
+    <ul id="parentesList"></ul>
+    <script src="/static/script.js"></script>
+</body>
+</html>
